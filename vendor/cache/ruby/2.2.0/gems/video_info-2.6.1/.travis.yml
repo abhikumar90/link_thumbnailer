@@ -1,0 +1,14 @@
+language: ruby
+sudo: false
+dist: trusty
+cache: bundler
+rvm:
+  - 2.2.4
+  - 2.3.0
+  - jruby-head
+  - rbx-2
+jdk:
+  - oraclejdk8
+before_install:
+  - gem install bundler
+  - gem update bundler

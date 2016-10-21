@@ -1,0 +1,14 @@
+/Users/abhishek/.rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20161021-23289-1pf7vv0.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling driver.c
+compiling driver_config.c
+compiling libll.c
+linking shared-object libll.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 libll.bundle ./.gem.20161021-23289-1tsm3sc

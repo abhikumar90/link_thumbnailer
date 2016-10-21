@@ -1,0 +1,13 @@
+/Users/abhishek/.rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20161021-23289-l9xc6b.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling lexer.c
+compiling liboga.c
+linking shared-object liboga.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 liboga.bundle ./.gem.20161021-23289-mb0n1b
